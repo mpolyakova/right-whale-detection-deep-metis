@@ -1,0 +1,5 @@
+data/train/
+data/
+orca-eda.ipynb
+*.jpg
+.ipynb_checkpoints
