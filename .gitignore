@@ -3,3 +3,5 @@ data/
 orca-eda.ipynb
 *.jpg
 .ipynb_checkpoints
+models/
+*.h5
