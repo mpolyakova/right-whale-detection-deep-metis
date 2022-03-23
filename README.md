@@ -22,6 +22,8 @@ The data is 2 second sound clips, prelabeled with the presence or absence of a r
 The dataset is divided into 24K clips training set, 3K for validation and 3K for testing. The data is unbalanced with 1:5 ratio of right whale clips to other clips, and the data is noisy.   
 The data used for training is precut, so we would need additional techniques in production to sample the incoming datastream for the start of signal. Potentially this can be bruteforced, cutting on overlapping windows very quickly and running the model on each, but can also be an additional model for signal detection. This is out of scope for this POC, however. 
 
+Data collected from Kaggle: https://www.kaggle.com/c/whale-detection-challenge Not included in github due to size. 
+
 
 ## Algorithms 
 ### Data Processing 
